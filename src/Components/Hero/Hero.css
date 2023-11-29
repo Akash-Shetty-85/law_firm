@@ -1,0 +1,72 @@
+/* Hero section container */
+.hero-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center; /* Center items vertically */
+  justify-content: space-between; /* Space between text and image */
+
+  margin: 0 1%;
+  padding: 4%;
+}
+
+/* Styling for the text content */
+.hero-text {
+  flex: 1; /* Allow text to take remaining space */
+}
+
+.hero-text h1 {
+  color: var(--css-pure-white);
+  font-weight: 700;
+  font-size: 66px;
+  line-height: 30px;
+}
+.hero-text P {
+  font-size: 18px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.3);
+  word-spacing: 10px;
+  line-height: 30px;
+}
+/* Styling for the image container */
+.hero-image {
+  flex: 1; /* Allow image to take remaining space */
+  display: flex;
+  justify-content: space-around; /* Center the image horizontally */
+  align-items: center; /* Center the image vertically */
+}
+
+/* Styling for the image */
+.hero-image img {
+  max-width: 100%; /* Ensure image doesn't exceed container width */
+  max-height: 100%; /* Ensure image doesn't exceed container height */
+}
+
+.hero-input {
+  height: 74px;
+  width: 438px;
+  /* border: 4px solid red; */
+  border-radius: 45px;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+
+  background-color: aliceblue;
+}
+.hero-input input{
+    padding-left: 10%;
+    font-size: larger;
+    outline: none;
+    border: none;
+}
+
+.hero-input button{
+ margin: 5%;
+ border-radius: 43px;
+ border: none;
+ font-size: 1rem;
+ font-weight: 500;
+ padding: 4px;
+ width: 90%;
+ color: var(--css-button-text);
+ background: var( --css-yellow-color);
+}

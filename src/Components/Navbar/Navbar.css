@@ -1,0 +1,63 @@
+/* Reset default styles for list items */
+ul,
+ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Navbar styles */
+.nav-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--css-hero-bg);
+  margin: 0 1%;
+  padding: 4%;
+  /* margin-top: 0; */
+}
+.nav-section :first-child{
+ margin-top: 0;
+}
+.navbar-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.navbar-links li {
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--css-pure-white);
+  margin-right: 20px; /* Adjust spacing between navbar items */
+}
+a {
+  text-decoration: none;
+  font-size: x-large;
+  color: var(--css-pure-white);
+  margin-right: 1.5rem;
+}
+/* Social media styles */
+.social-nav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.social-nav li {
+  margin-right: 10px; /* Adjust spacing between social media icons */
+}
+
+/* Contact button styles */
+.nav-button {
+  width: 172px;
+  height: 47px;
+  color: var(--css-pure-white);
+  font-size: 16px;
+  font-weight: 600;
+  background: var(--css-hero-bg);
+  border: 2px solid var(--css-pure-white);
+}
