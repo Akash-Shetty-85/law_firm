@@ -1,0 +1,38 @@
+.introsection {
+  display: flex;
+  /* color: #6A6A6A; */
+  margin: 0 1%;
+  padding: 4%;
+  flex-direction: row; /* Display items in a row */
+  justify-content: space-between; /* Add space between the sections */
+  align-items: flex-start; /* Align items to the start of the cross-axis */
+}
+hr {
+  height: 256px;
+  margin: 1px 0; /* Adjust margin as needed */
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.introsection > section {
+  width: 40%; /* Adjust width as needed */
+}
+.intro-text h1{
+  font-weight: 600;
+  font-size: 54px;
+  line-height: 10px;
+  color: var(--css-pure-white);
+  text-transform: capitalize;
+}
+
+.intro-des h1{
+  font-weight: 600;
+  font-size: 32px;
+  align-items: center;
+  color: var(--css-pure-white);
+}
+.intro-des p{
+  font-weight: 500;
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.3);
+  line-height: 30px;
+  
+}
